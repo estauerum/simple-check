@@ -1,0 +1,35 @@
+.gay__wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gay__buttons {
+    margin-top: 20px;
+    width: 500px;
+    position: relative;
+}
+
+button.gay__btn {
+    padding: 3px 35px;
+    cursor: pointer;
+}
+
+button.gay__btn.yes {
+position: absolute;
+    left: 30%;
+    top: 0;
+}
+
+button.gay__btn.no {
+    position: absolute;
+    left: 52%;
+    top: 0;
+}
+
+.gay__answer {
+    margin-top: 80px;
+}
